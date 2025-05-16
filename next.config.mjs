@@ -7,6 +7,9 @@ const nextConfig = {
     output: 'export',
     basePath: isProd ? '/nextblog' : '',
     assetPrefix: isProd ? '/nextblog/' : '',
+    images: {
+        unoptimized: true,  // Disable image optimization
+    },
 };
 
 export default withFlowbiteReact(nextConfig);
