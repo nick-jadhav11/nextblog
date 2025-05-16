@@ -12,7 +12,7 @@ export default function Custom404() {
         />
         <h1 className="text-6xl font-extrabold text-red-500 mb-4">Oops!</h1>
         <p className="text-xl mb-8">
-          Sorry, the page you're looking for doesn't exist.
+          Sorry, the page you&apos;re looking for doesn&apos;t exist.
         </p>
 
         <div className="space-x-4">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -21,24 +22,24 @@ const Footer = () => {
             </h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="hover:text-amber-400">
+                <Link href="/" className="hover:text-amber-400">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-amber-400">
+                <Link href="/about" className="hover:text-amber-400">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:text-amber-400">
+                <Link href="/services" className="hover:text-amber-400">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-amber-400">
+                <Link href="/contact" className="hover:text-amber-400">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -50,15 +51,15 @@ const Footer = () => {
             <p className="text-sm text-gray-400">123 Spa Street, Wellness City</p>
             <p className="text-sm text-gray-400">
               Email:{" "}
-              <a href="mailto:info@spabooky.com" className="hover:text-amber-400">
+              <Link href="mailto:info@spabooky.com" className="hover:text-amber-400">
                 info@spabooky.com
-              </a>
+              </Link>
             </p>
             <p className="text-sm text-gray-400">
               Phone:{" "}
-              <a href="tel:+1234567890" className="hover:text-amber-400">
+              <Link href="tel:+1234567890" className="hover:text-amber-400">
                 +1 234 567 890
-              </a>
+              </Link>
             </p>
           </address>
 
