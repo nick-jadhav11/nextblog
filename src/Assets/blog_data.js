@@ -1,6 +1,5 @@
 import Sparrow from '@/Assets/bird.jpg'
 import Kingfisher from '@/Assets/kingfisher.jpg'
-import Profile from '@/Assets/profile.jpg'
 
 const blog_data = [
     {
@@ -11,7 +10,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "Programming",
       "author": "John Doe",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 2,
@@ -21,7 +20,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Programming",
       "author": "Jane Smith",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 3,
@@ -31,7 +30,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Development",
       "author": "Emily Johnson",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 4,
@@ -41,7 +40,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "React",
       "author": "Michael Lee",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 5,
@@ -51,7 +50,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "React",
       "author": "Sarah Brown",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 6,
@@ -61,7 +60,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Design",
       "author": "David Green",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 7,
@@ -71,7 +70,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "React",
       "author": "Olivia White",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 8,
@@ -81,7 +80,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Development",
       "author": "William Clark",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 9,
@@ -91,7 +90,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "Web Design",
       "author": "Emma Davis",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 10,
@@ -101,7 +100,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Design",
       "author": "John Wilson",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 11,
@@ -111,7 +110,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Design",
       "author": "Megan Taylor",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 12,
@@ -121,7 +120,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "React",
       "author": "James Harris",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 13,
@@ -131,7 +130,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Web Development",
       "author": "Sophia Martinez",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 14,
@@ -141,7 +140,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "Web Development",
       "author": "Lucas Moore",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 15,
@@ -151,7 +150,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "React",
       "author": "Liam Anderson",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 16,
@@ -161,7 +160,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "Programming",
       "author": "Charlotte Scott",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 17,
@@ -171,7 +170,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Programming",
       "author": "Benjamin Walker",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 18,
@@ -181,7 +180,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "Web Design",
       "author": "Ava Mitchell",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 19,
@@ -191,7 +190,7 @@ const blog_data = [
       "image": Kingfisher,
       "category": "Programming",
       "author": "Henry Thompson",
-      "author_img": Profile
+      "author_img": Sparrow
     },
     {
       "id": 20,
@@ -201,7 +200,7 @@ const blog_data = [
       "image": Sparrow,
       "category": "React",
       "author": "Isabella Harris",
-      "author_img": Profile
+      "author_img": Sparrow
     }
 ];
 
