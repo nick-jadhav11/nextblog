@@ -22,14 +22,14 @@ const Hero = () => {
             <p className="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iste fugiat molestiae delectus veniam quasi voluptates, eum quisquam deserunt ea ab, nulla voluptatibus porro. Eveniet totam officia ipsam repellat quibusdam?</p>
             {/* play store app store logo */}
             <div className="flex mt-8 mb-8 items-center space-x-4"> 
-                <Image src="/images/logo.png" alt="Play Store" width={150} height={150} className="object-contain" />
-                <Image src="/images/logo.png" alt="App Store" width={150} height={150} className="object-contain" />
+                <Image src={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/logo.png`} alt="Play Store" width={150} height={150} className="object-contain" />
+                <Image src={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/logo.png`} alt="App Store" width={150} height={150} className="object-contain" />
             </div>
           </div>
           {/* image content */}
           <div data-aos="fade-up" data-aos-delay="300" className="hidden lg:block">
             <Image
-              src="/images/hero1.png"
+              src={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/hero1.png`}
               alt="hero"
               width={700}
               height={700}

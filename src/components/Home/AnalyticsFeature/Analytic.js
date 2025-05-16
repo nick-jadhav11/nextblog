@@ -9,7 +9,7 @@ const Analytic = () => {
         <div className='w-[95%] sm:w-[80%] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-10'>
             {/* Image */}
             <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <Image src="/images/elli-desktop.png" alt="girl" width={500} height={500} className='object-contain' />
+                <Image src={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/elli-desktop.png`} alt="girl" width={500} height={500} className='object-contain' />
             </div>
             {/* Text */}
             <div className='p-6'>

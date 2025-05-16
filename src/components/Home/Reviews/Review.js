@@ -34,9 +34,9 @@ const Review = () => {
                 infinite 
                 responsive={responsive}
             >
-            <ReviewCard name="Jon Doe" image="/images/profile.jpg" />
-            <ReviewCard name="Shawn Doe" image="/images/profile.jpg" />
-            <ReviewCard name="David Doe" image="/images/profile.jpg" />
+            <ReviewCard name="Jon Doe" image={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/profile.jpg`} />
+            <ReviewCard name="Shawn Doe" image={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/profile.jpg`} />
+            <ReviewCard name="David Doe" image={`${process.env.NODE_ENV === 'production' ? '/nextblog' : ''}/images/profile.jpg`} />
             </Carousel>
         </div>
     </div>
